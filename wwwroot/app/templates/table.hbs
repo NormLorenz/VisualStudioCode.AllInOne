@@ -1,0 +1,26 @@
+﻿<h1>Table Route</h1>
+<hr />
+<p>This section demonstrates a bootstrap table</p>
+
+<table class='table table-striped table-bordered table-condensed' style="width:500px;">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each item in model}}
+        <tr>
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.category}}</td>
+            <td>{{item.formattedPrice}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+
+<p>&copy;&nbsp;{{longYear renderedOn}} - My ASP.NET Application</p>

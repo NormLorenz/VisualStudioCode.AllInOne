@@ -1,0 +1,25 @@
+{
+    // version number
+    "version": "0.1.0",
+    // the command to run
+    "command": "gulp",
+    // is a shell command or an external executable program
+    "isShellCommand": true,
+    // additional arguments to be passed to the command
+    "args": [
+        "--no-color"
+    ],
+    
+    // one or more task configurations invoke with ctrl shift b
+    // this will invoke the gulp command 'all'
+    "tasks": [
+        {
+            // the task's name
+            "taskName": "all",
+            // additional arguments passed to the command when this task is invoked
+            "args": [],
+            // maps this tasks to Visual Studio Code's default build command
+            "isBuildCommand": true
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "Data": {
+        "DefaultConnection": { 
+            "ConnectionString": "Server=(localdb)]\\v11.0;Database=Sales;Trusted_Connection=True;MultipleActiveResultSets=true"
+        }
+    },
+    
+    "EntityFramework": {
+        "ApplicationDbContext": {
+            "ConnectionStringKey": "Data:DefaultConnection:ConnectionString"
+        }
+    }
+}
