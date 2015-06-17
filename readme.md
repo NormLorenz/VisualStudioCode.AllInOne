@@ -70,8 +70,8 @@ After starting the server using dnx:web (Microsoft.AspNet.Hosting)
 - Rename the application - <font color='green'>done</font>
 - Build out a visual studio code folder in documents - <font color='green'>done</font>
 - Figure how to ignore and regenerate node modules - <font color='green'>done</font>
-- Build local git repository
-- Publish to git
+- Build local git repository - <font color='green'>done</font>
+- Publish to git - <font color='green'>done</font>
 - Figure out differences between both 'Web' and 'Kestrel' web servers
 - Trim down the .gitignore file
 - Figure out how to use the the launch.json file
