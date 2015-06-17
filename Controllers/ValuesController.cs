@@ -1,7 +1,5 @@
 using Microsoft.AspNet.Mvc;
-using VisualStudioCode.WebAPI.Models;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace VisualStudioCode.WebAPI.Controllers
 {

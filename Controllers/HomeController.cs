@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNet.Mvc;
-using System.Security.Principal;
+﻿using Microsoft.AspNet.Mvc;
 
 namespace VirtualTrainingTracker.Controllers
 {

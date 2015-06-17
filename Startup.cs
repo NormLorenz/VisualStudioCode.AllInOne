@@ -3,7 +3,6 @@ using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.Framework.DependencyInjection;
 using Microsoft.Framework.ConfigurationModel;
-using Microsoft.Framework.ConfigurationModel.Json;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 

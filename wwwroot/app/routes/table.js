@@ -1,5 +1,5 @@
 app.TableRoute = Ember.Route.extend({
 	model: function () {
-		return this.store.find('product');	
+		return this.store.findAll('product');	
 	}
 });

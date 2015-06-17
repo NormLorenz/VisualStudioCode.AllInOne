@@ -15,7 +15,7 @@ public static class Extensions
             return -1;
         }
         
-         public static int? ToIntNullable(this string s)
+        public static int? ToIntNullable(this string s)
         {
             int i = 0;
             int.TryParse(s, out i);
@@ -29,6 +29,7 @@ public static class Extensions
             else
                 return i;
         }
+        
        public static int? NullifyZero(this int i)
         {
             if (i == 0)

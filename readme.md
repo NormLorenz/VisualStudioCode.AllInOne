@@ -2,7 +2,7 @@
 
 This is a Visual Studio Code (VSCode) project to demonstrate an all-in-one application that uses a client-side 
 javascript framework on the client and a rest service (WebAPI) and entity framework on the server. In particular,
-this project uses ASP.Net 5, MVC 6, Entity Framework 7, Nuget, Node, Gulp, Ember 1.11, Ember-Data, Typescript and Yeoman.
+this project uses ASP.Net 5, MVC 6, Entity Framework 7, Nuget, Node, Gulp, Ember 1.13, Ember-Data 1.13, Typescript and Yeoman.
 
 Follow the instructions located [here](https://code.visualstudio.com/) to setup Visual Studio Code on your
 machine.

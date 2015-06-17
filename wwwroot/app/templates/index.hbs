@@ -2,7 +2,7 @@
 <hr />
 <p>This is as simple as it gets</p>
 <ul>
-    {{#each item in model}}
+    {{#each model as |item|}}
     <li>{{item}}</li>
     {{/each}}
 </ul>
